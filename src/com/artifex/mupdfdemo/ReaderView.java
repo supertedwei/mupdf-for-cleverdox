@@ -667,7 +667,8 @@ public class ReaderView
 
 	@Override
 	public View getSelectedView() {
-		throw new UnsupportedOperationException(getContext().getString(R.string.not_supported));
+//		throw new UnsupportedOperationException(getContext().getString(R.string.not_supported)); XXX
+		return null;
 	}
 
 	@Override
