@@ -1103,7 +1103,6 @@ public class MuPDFActivity extends Activity implements FilePicker.FilePickerSupp
 		}
 	}
 
-	@Override
 	public void performPickFor(FilePicker picker) {
 		mFilePicker = picker;
 		Intent intent = new Intent(this, ChoosePDFActivity.class);
